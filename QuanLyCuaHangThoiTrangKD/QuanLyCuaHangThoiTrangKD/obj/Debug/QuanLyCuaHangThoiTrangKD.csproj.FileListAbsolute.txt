@@ -1,0 +1,16 @@
+C:\Users\HELLO\OneDrive\Documents\QuanLyBanHang_K&D\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\bin\Debug\QuanLyCuaHangThoiTrangKD.exe.config
+C:\Users\HELLO\OneDrive\Documents\QuanLyBanHang_K&D\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\bin\Debug\QuanLyCuaHangThoiTrangKD.exe
+C:\Users\HELLO\OneDrive\Documents\QuanLyBanHang_K&D\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\bin\Debug\QuanLyCuaHangThoiTrangKD.pdb
+C:\Users\HELLO\OneDrive\Documents\QuanLyBanHang_K&D\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\obj\Debug\QuanLyCuaHangThoiTrangKD.csprojAssemblyReference.cache
+C:\Users\HELLO\OneDrive\Documents\QuanLyBanHang_K&D\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\obj\Debug\QuanLyCuaHangThoiTrangKD.FormMain.resources
+C:\Users\HELLO\OneDrive\Documents\QuanLyBanHang_K&D\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\obj\Debug\QuanLyCuaHangThoiTrangKD.Properties.Resources.resources
+C:\Users\HELLO\OneDrive\Documents\QuanLyBanHang_K&D\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\obj\Debug\QuanLyCuaHangThoiTrangKD.csproj.GenerateResource.cache
+C:\Users\HELLO\OneDrive\Documents\QuanLyBanHang_K&D\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\obj\Debug\QuanLyCuaHangThoiTrangKD.csproj.CoreCompileInputs.cache
+C:\Users\HELLO\OneDrive\Documents\QuanLyBanHang_K&D\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\obj\Debug\QuanLyCuaHangThoiTrangKD.exe
+C:\Users\HELLO\OneDrive\Documents\QuanLyBanHang_K&D\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\obj\Debug\QuanLyCuaHangThoiTrangKD.pdb
+C:\Users\HELLO\OneDrive\Documents\QuanLyBanHang_K&D\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\obj\Debug\QuanLyCuaHangThoiTrangKD.Forms.FormKhachhang.resources
+C:\Users\HELLO\OneDrive\Documents\QuanLyBanHang_K&D\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\obj\Debug\QuanLyCuaHangThoiTrangKD.Forms.FormHoadon.resources
+C:\Users\HELLO\OneDrive\Documents\QuanLyBanHang_K&D\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\obj\Debug\QuanLyCuaHangThoiTrangKD.Forms.FormNhanvien.resources
+C:\Users\HELLO\OneDrive\Documents\QuanLyBanHang_K&D\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\obj\Debug\QuanLyCuaHangThoiTrangKD.Forms.FormSanpham.resources
+C:\Users\HELLO\OneDrive\Documents\QuanLyBanHang_K&D\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\obj\Debug\QuanLyCuaHangThoiTrangKD.Forms.FormTaikhoan.resources
+C:\Users\HELLO\OneDrive\Documents\QuanLyBanHang_K&D\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\obj\Debug\QuanLyCuaHangThoiTrangKD.Forms.FormThongke.resources
