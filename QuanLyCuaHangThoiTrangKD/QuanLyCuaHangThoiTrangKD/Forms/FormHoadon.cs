@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using QuanLyCuaHangThoiTrangKD.Forms;
+using QuanLyCuaHangThoiTrangKD.Forms.Function;
 
 namespace QuanLyCuaHangThoiTrangKD.Forms
 {
@@ -15,6 +17,12 @@ namespace QuanLyCuaHangThoiTrangKD.Forms
         public FormHoadon()
         {
             InitializeComponent();
+        }
+
+        private void btnLapHoaDon_Click(object sender, EventArgs e)
+        {
+            FormLapHoaDon frmLHD = new FormLapHoaDon();
+            frmLHD.ShowDialog();
         }
     }
 }

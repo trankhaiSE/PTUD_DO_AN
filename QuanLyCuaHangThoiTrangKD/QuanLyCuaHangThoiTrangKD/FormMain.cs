@@ -88,6 +88,7 @@ namespace QuanLyCuaHangThoiTrangKD
         private void btnSanpham_Click(object sender, EventArgs e)
         {
             OpenChildForm(new Forms.FormSanpham(), sender);
+
         }
 
         private void btnKhachhang_Click(object sender, EventArgs e)

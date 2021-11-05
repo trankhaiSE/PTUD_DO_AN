@@ -14,3 +14,36 @@ C:\Users\HELLO\OneDrive\Documents\QuanLyBanHang_K&D\QuanLyCuaHangThoiTrangKD\Qua
 C:\Users\HELLO\OneDrive\Documents\QuanLyBanHang_K&D\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\obj\Debug\QuanLyCuaHangThoiTrangKD.Forms.FormSanpham.resources
 C:\Users\HELLO\OneDrive\Documents\QuanLyBanHang_K&D\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\obj\Debug\QuanLyCuaHangThoiTrangKD.Forms.FormTaikhoan.resources
 C:\Users\HELLO\OneDrive\Documents\QuanLyBanHang_K&D\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\obj\Debug\QuanLyCuaHangThoiTrangKD.Forms.FormThongke.resources
+E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\bin\Debug\QuanLyCuaHangThoiTrangKD.exe.config
+E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\bin\Debug\QuanLyCuaHangThoiTrangKD.exe
+E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\bin\Debug\QuanLyCuaHangThoiTrangKD.pdb
+E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\obj\Debug\QuanLyCuaHangThoiTrangKD.FormMain.resources
+E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\obj\Debug\QuanLyCuaHangThoiTrangKD.Forms.FormHoadon.resources
+E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\obj\Debug\QuanLyCuaHangThoiTrangKD.Forms.FormKhachhang.resources
+E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\obj\Debug\QuanLyCuaHangThoiTrangKD.Forms.FormNhanvien.resources
+E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\obj\Debug\QuanLyCuaHangThoiTrangKD.Forms.FormSanpham.resources
+E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\obj\Debug\QuanLyCuaHangThoiTrangKD.Forms.FormTaikhoan.resources
+E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\obj\Debug\QuanLyCuaHangThoiTrangKD.Forms.FormThongke.resources
+E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\obj\Debug\QuanLyCuaHangThoiTrangKD.Properties.Resources.resources
+E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\obj\Debug\QuanLyCuaHangThoiTrangKD.csproj.GenerateResource.cache
+E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\obj\Debug\QuanLyCuaHangThoiTrangKD.csproj.CoreCompileInputs.cache
+E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\obj\Debug\QuanLyCuaHangThoiTrangKD.exe
+E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\obj\Debug\QuanLyCuaHangThoiTrangKD.pdb
+E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\obj\Debug\QuanLyCuaHangThoiTrangKD.exe.config
+E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\obj\Debug\QuanLyCuaHangThoiTrangKD.Forms.Function.FormLapHoaDon.resources
+E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\obj\Debug\QuanLyCuaHangThoiTrangKD.exe.licenses
+E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
+E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.dll
+E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.dll
+E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.dll
+E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.dll
+E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\bin\Debug\Bunifu.UI.WinForms.BunifuPages.dll
+E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.dll
+E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\bin\Debug\Bunifu.UI.WinForms.BunifuTextbox.dll
+E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\bin\Debug\EntityFramework.dll
+E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\bin\Debug\EntityFramework.SqlServer.dll
+E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\bin\Debug\Bunifu.Licensing.dll
+E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\bin\Debug\EntityFramework.xml
+E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\bin\Debug\EntityFramework.SqlServer.xml
+E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\obj\Debug\QuanLyCuaHangThoiTrangKD.csproj.CopyComplete
+E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\obj\Debug\QuanLyCuaHangThoiTrangKD.csprojAssemblyReference.cache
