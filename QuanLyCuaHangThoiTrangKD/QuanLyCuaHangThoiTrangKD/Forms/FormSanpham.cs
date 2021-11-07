@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using QuanLyCuaHangThoiTrangKD.Forms.Function;
 
 namespace QuanLyCuaHangThoiTrangKD.Forms
 {
@@ -15,6 +16,12 @@ namespace QuanLyCuaHangThoiTrangKD.Forms
         public FormSanpham()
         {
             InitializeComponent();
+        }
+
+        private void btnLapPhieuNhap_Click(object sender, EventArgs e)
+        {
+            FormLapPhieuNhap frm = new FormLapPhieuNhap();
+            frm.Show();
         }
     }
 }

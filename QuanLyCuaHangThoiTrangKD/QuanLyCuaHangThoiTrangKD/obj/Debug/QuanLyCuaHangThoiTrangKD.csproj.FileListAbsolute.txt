@@ -42,8 +42,14 @@ E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCua
 E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\bin\Debug\Bunifu.UI.WinForms.BunifuTextbox.dll
 E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\bin\Debug\EntityFramework.dll
 E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\bin\Debug\EntityFramework.SqlServer.dll
-E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\bin\Debug\Bunifu.Licensing.dll
 E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\bin\Debug\EntityFramework.xml
 E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\bin\Debug\EntityFramework.SqlServer.xml
 E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\obj\Debug\QuanLyCuaHangThoiTrangKD.csproj.CopyComplete
 E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\obj\Debug\QuanLyCuaHangThoiTrangKD.csprojAssemblyReference.cache
+E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\obj\Debug\QuanLyCuaHangThoiTrangKD.Forms.Function.FormLapPhieuNhap.resources
+E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\obj\Debug\QuanLyCuaHangThoiTrangKD.Forms.Function.FormThemNCC.resources
+E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.dll
+E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.dll
+E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.dll
+E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.dll
+E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.dll
