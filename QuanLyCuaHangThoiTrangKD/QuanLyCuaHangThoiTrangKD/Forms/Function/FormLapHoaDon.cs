@@ -18,6 +18,7 @@ namespace QuanLyCuaHangThoiTrangKD.Forms.Function
         private List<ChiTietHoaDon> dsSPHD = new List<ChiTietHoaDon>();
         private List<SanPham> dsSPHDSess = new List<SanPham>();
         double? tongtien = 0;
+        Random random = new Random();
 
         public FormLapHoaDon()
         {
@@ -96,6 +97,7 @@ namespace QuanLyCuaHangThoiTrangKD.Forms.Function
             int soluong = int.Parse(txtSoluongSP.Text.ToString());
 
             ChiTietHoaDon chiTietHoaDon = new ChiTietHoaDon();
+            chiTietHoaDon.MaCTHD = random.Next(99999, 1000000);
             chiTietHoaDon.SanPham = sanPham;
             chiTietHoaDon.Soluong = soluong;
             if(dsSPHD.Count == 0)
@@ -182,7 +184,16 @@ namespace QuanLyCuaHangThoiTrangKD.Forms.Function
 
         private void btnLuuhoadon_Click(object sender, EventArgs e)
         {
-            HoaDon hoaDon = new HoaDon();
+            if(dsSPHD.Count == 0)
+            {
+
+            }
+            else
+            {
+                hoaDon.MaHD = random.Next(9999, 100000);
+                hoaDon.Ngaylap = DateTime.Today;
+                //hoaDon.KhachHang = 
+            }
             
         }
 

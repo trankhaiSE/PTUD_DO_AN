@@ -53,3 +53,14 @@ E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCua
 E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.dll
 E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.dll
 E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.dll
+E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\obj\Debug\QuanLyCuaHangThoiTrangKD.Forms.Function.FormThongTinSanPham.resources
+E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\obj\Debug\QuanLyCuaHangThoiTrangKD.Forms.Function.FormDangnhap.resources
+E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.dll
+E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.dll
+E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.dll
+E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.dll
+E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.dll
+E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.dll
+E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.dll
+E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.dll
+E:\Phat trien ung dung\pham mem\v1\PTUD_DO_AN\QuanLyCuaHangThoiTrangKD\QuanLyCuaHangThoiTrangKD\obj\Debug\QuanLyCuaHangThoiTrangKD.Forms.Function.FormThongTinPhieuNhap.resources

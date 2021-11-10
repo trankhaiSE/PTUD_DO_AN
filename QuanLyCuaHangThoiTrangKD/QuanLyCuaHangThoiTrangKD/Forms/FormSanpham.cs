@@ -23,5 +23,17 @@ namespace QuanLyCuaHangThoiTrangKD.Forms
             FormLapPhieuNhap frm = new FormLapPhieuNhap();
             frm.Show();
         }
+
+        private void btnThongtinSanPham_Click(object sender, EventArgs e)
+        {
+            FormThongTinSanPham frm = new FormThongTinSanPham();
+            frm.Show();
+        }
+
+        private void btnCapnhatPN_Click(object sender, EventArgs e)
+        {
+            FormThongTinPhieuNhap frm = new FormThongTinPhieuNhap();
+            frm.Show();
+        }
     }
 }

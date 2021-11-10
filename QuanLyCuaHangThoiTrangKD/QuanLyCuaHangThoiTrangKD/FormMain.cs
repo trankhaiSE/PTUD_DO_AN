@@ -12,6 +12,8 @@ namespace QuanLyCuaHangThoiTrangKD
 {
     public partial class FormMain : Form
     {
+        private TaiKhoan thongtintaikhoan;
+
         private Button currentButton;
         private Random random;
         private int tempIndex;
@@ -22,6 +24,15 @@ namespace QuanLyCuaHangThoiTrangKD
             random = new Random();
             btnCloseChildform.Visible = false;
         }
+
+        public FormMain(TaiKhoan taikhoan)
+        {
+            InitializeComponent();
+            this.thongtintaikhoan = taikhoan;
+            random = new Random();
+            btnCloseChildform.Visible = false;
+        }
+
         private Color SelectColors()
         {
             int index = random.Next(Colors.ColorList.Count);
@@ -85,10 +96,68 @@ namespace QuanLyCuaHangThoiTrangKD
             childForm.Show();
             lblTitle.Text = childForm.Text;
         }
+        //private void btnSanpham_Click(object sender, EventArgs e)
+        //{
+        //    if(thongtintaikhoan.loai == "Quản lý")
+        //    {
+        //        OpenChildForm(new Forms.FormSanpham(), sender);
+        //    }
+        //    else
+        //    {
+        //        MessageBox.Show("Bạn phải được cấp quyền để thực hiện chức năng !", "Thông báo");
+        //    }
+        //}
+
+        //private void btnKhachhang_Click(object sender, EventArgs e)
+        //{
+        //    OpenChildForm(new Forms.FormKhachhang(), sender);
+        //}
+
+        //private void btnNhanvien_Click(object sender, EventArgs e)
+        //{
+        //    if(this.thongtintaikhoan.loai == "Quản lý")
+        //    {
+        //        OpenChildForm(new Forms.FormNhanvien(), sender);
+        //    }
+        //    else
+        //    {
+        //        MessageBox.Show("Bạn phải được cấp quyền để thực hiện chức năng !", "Thông báo");
+        //    }
+        //}
+
+        //private void btnHoadon_Click(object sender, EventArgs e)
+        //{
+        //    OpenChildForm(new Forms.FormHoadon(), sender);
+        //}
+
+        //private void btnThongke_Click(object sender, EventArgs e)
+        //{           
+        //    if (this.thongtintaikhoan.loai == "Quản lý")
+        //    {
+        //        OpenChildForm(new Forms.FormThongke(), sender);
+        //    }
+        //    else
+        //    {
+        //        MessageBox.Show("Bạn phải được cấp quyền để thực hiện chức năng !", "Thông báo");
+        //    }
+        //}
+
+        //private void btnTaikhoan_Click(object sender, EventArgs e)
+        //{            
+        //    if (this.thongtintaikhoan.loai == "Quản lý")
+        //    {
+        //        OpenChildForm(new Forms.FormTaikhoan(), sender);
+        //    }
+        //    else
+        //    {
+        //        MessageBox.Show("Bạn phải được cấp quyền để thực hiện chức năng !", "Thông báo");
+        //    }
+        //}
+
+//========================== Dùng khi test =========================        
         private void btnSanpham_Click(object sender, EventArgs e)
         {
             OpenChildForm(new Forms.FormSanpham(), sender);
-
         }
 
         private void btnKhachhang_Click(object sender, EventArgs e)
@@ -115,7 +184,7 @@ namespace QuanLyCuaHangThoiTrangKD
         {
             OpenChildForm(new Forms.FormTaikhoan(), sender);
         }
-
+//========================== Dùng khi test =========================  
         private void FormMain_Load(object sender, EventArgs e)
         {
 

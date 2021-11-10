@@ -20,22 +20,53 @@ namespace QuanLyCuaHangThoiTrangKD.Forms.Function
         private List<SanPham> dsSPPNSess = new List<SanPham>();
         private List<ChiTietPhieuNhap> dsCTPN = new List<ChiTietPhieuNhap>();
         double? tongtien = 0;
+        Random ran = new Random();
 
         public FormLapPhieuNhap()
         {
             InitializeComponent();
 
             LoadComboboxSP();
-            var dsSPHT = db.ChiTietPhieuNhap
-                .GroupBy(x => x.SanPham.MaSP)
-                .Select(z => new { CTPN = z.Key, TongSL = z.Sum(y => y.Soluong) })
-                .OrderByDescending(z => z.TongSL);
+            var dsSPHT = db.SanPham
+                .Join(db.ChiTietPhieuNhap, sp => sp.MaSP, ctpn => ctpn.SanPham.MaSP
+                , (sp, ctpn) => new
+                {
+                    IDCTPN = ctpn.MaCTPN,
+                    IDSP = sp.MaSP,
+                    SLSPPN = ctpn.Soluong
+                })
+                .Join(db.ChiTietHoaDon, sppn => sppn.IDSP, cthd => cthd.MaSP
+                , (sppn, cthd) => new
+                {
+                    idCTPN = sppn.IDCTPN,
+                    idCTHD = cthd.MaCTHD,
+                    idSP = sppn.IDSP,
+                    slSPPN = sppn.SLSPPN,
+                    slSPHD = cthd.Soluong
+                })
+                .GroupBy(x => x.idSP)
+                .Select(z => new { MASP = z.Key, TongSLSPPN = z.Sum(y => y.slSPPN), TongSLSPHD = z.Sum(g => g.slSPHD) })
+                .OrderByDescending(z => z.TongSLSPPN);
 
             string mess = "";
             foreach(var i in dsSPHT)
             {
-                mess += "San pham " + i.CTPN.ToString() + " sl: " + i.TongSL + " | "; 
+                mess += i.MASP + " - " + i.TongSLSPHD + " - " + i.TongSLSPPN + " | "; 
             }
+
+            //MessageBox.Show(mess);
+
+            //foreach (var item in dsSPHT)
+            //{
+            //    SanPham spht = db.SanPham.Where(x => x.MaSP == item.CTPN).FirstOrDefault();
+            //    DataGridViewRow row = (DataGridViewRow)dgvThongtinSPHT.Rows[0].Clone();
+            //    row.Cells[0].Value = spht.MaSP.ToString();
+            //    row.Cells[1].Value = spht.TenSP.ToString();
+            //    row.Cells[2].Value = 
+            //    row.Cells[3].Value = spht.ToString();
+
+            //    dgvThongtinSPHT.Rows.Add(row);
+            //}
         }
 
         private void btnThemvaoPN_Click(object sender, EventArgs e)
@@ -67,12 +98,14 @@ namespace QuanLyCuaHangThoiTrangKD.Forms.Function
             }
 
             ChiTietPhieuNhap ctpn = new ChiTietPhieuNhap();
+            ctpn.MaCTPN = ran.Next(99999, 1000000); //100000 - 999999
             ctpn.SanPham = sp;
             ctpn.Soluong = slNhap;
 
             if(dsCTPN.Count == 0)
             {
                 ChiTietPhieuNhap ctpnInit = new ChiTietPhieuNhap();
+                ctpnInit.MaCTPN = ran.Next(99999, 1000000);
                 ctpnInit.SanPham = sp;
                 ctpnInit.Soluong = 0;
                 dsSPPNSess.Add(sp);
@@ -133,34 +166,44 @@ namespace QuanLyCuaHangThoiTrangKD.Forms.Function
 
         private void btnLuuPN_Click(object sender, EventArgs e)
         {
-            NhaCungCap ncc = db.NhaCungCap.Where(x => x.TenNCC == cbTenNCC.SelectedItem.ToString().Trim()).FirstOrDefault();
-            Random ran = new Random();
-
-            phieu.MaPN = ran.Next(9999, 100000);
-            phieu.NgayLap = DateTime.Today;
-            phieu.Tinhtrang = "Đã thanh toán";
-            phieu.Tongtien = tongtien;
-            phieu.ChiTietPhieuNhap = dsCTPN;
-            phieu.NhaCungCap = ncc;
-            phieu.Calamviec = Helpers.KiemtraCalamviecHientai();
-
-            //db.PhieuNhap.Add(phieu);
-            //MessageBox.Show("PN: " + phieu.MaPN + " - " + phieu.NgayLap + " - " + phieu.Tongtien + " - " + phieu.ChiTietPhieuNhap.Count + " - " + phieu.NhaCungCap.TenNCC + " - " + phieu.Calamviec + " - ");
-            try {
-                foreach(var item in dsSPPNSess)
-                {
-                    //if()
-                    //db.SanPham.Add()
-                }
-
-                MessageBox.Show("Phiếu nhập lưu thành công");
-            }
-            catch(Exception)
+            if(dsCTPN.Count == 0)
             {
-
+                MessageBox.Show("Chưa có thông tin sản phẩm cần nhập ! Vui lòng quay lại");
             }
+            else
+            {
+                NhaCungCap ncc = db.NhaCungCap.Where(x => x.TenNCC == cbTenNCC.SelectedItem.ToString().Trim()).FirstOrDefault();
 
-            dgvDanhsachSPPN.Rows.Clear();
+                phieu.MaPN = ran.Next(9999, 100000);
+                phieu.NgayLap = DateTime.Today;
+                phieu.Tinhtrang = "Đã thanh toán";
+                phieu.Tongtien = tongtien;
+                phieu.ChiTietPhieuNhap = dsCTPN;
+                phieu.NhaCungCap = ncc;
+                phieu.Calamviec = Helpers.KiemtraCalamviecHientai();
+
+                try
+                {
+                    var sps = db.SanPham.ToList();
+                    foreach (var item in dsSPPNSess)
+                    {
+                        if (!sps.Contains(item))
+                        {
+                            db.SanPham.Add(item);
+                        }
+                    }
+                    db.PhieuNhap.Add(phieu);
+                    db.SaveChanges();
+                    MessageBox.Show("Phiếu nhập lưu thành công");
+                    dgvDanhsachSPPN.Rows.Clear();
+                    XoarongThongtinSP();
+                }
+                catch (Exception)
+                {
+                    MessageBox.Show("Thông tin lỗi: " + e.ToString());
+                }
+               
+            }    
         }
 
         void LoadComboboxSP()
@@ -187,6 +230,7 @@ namespace QuanLyCuaHangThoiTrangKD.Forms.Function
             cbLoaiSP.Items.Add("Đặc biệt");
             cbLoaiSP.Items.Add("Phụ kiện");
 
+            cbMausac.Items.Add("Hồng");
             cbMausac.Items.Add("Cam");
             cbMausac.Items.Add("Trắng");
             cbMausac.Items.Add("Đen");
@@ -196,7 +240,7 @@ namespace QuanLyCuaHangThoiTrangKD.Forms.Function
             cbMausac.Items.Add("Xanh dương");
         }
 
-        private void btnXoarongTTSP_Click(object sender, EventArgs e)
+        void XoarongThongtinSP()
         {
             tbTenSP.Text = "";
             tbChatlieu.Text = "";
@@ -208,9 +252,41 @@ namespace QuanLyCuaHangThoiTrangKD.Forms.Function
             nudSoluongnhap.Value = 1;
         }
 
+        private void btnXoarongTTSP_Click(object sender, EventArgs e)
+        {
+            XoarongThongtinSP();
+        }
+
         private void btnThemNCC_Click(object sender, EventArgs e)
         {
-            
+            FormThemNCC frm = new FormThemNCC();
+            frm.Show();
+        }
+
+        private void btnXoakhoiPN_Click(object sender, EventArgs e)
+        {
+            int index = 0;
+            if (dsCTPN.Count > 0)
+            {
+                string masp = dgvDanhsachSPPN.CurrentRow.Cells[0].Value.ToString();
+                string strThanhtien = dgvDanhsachSPPN.CurrentRow.Cells[4].Value.ToString();
+                double thanhtien = double.Parse(strThanhtien);
+                foreach (var cthd in dsCTPN)
+                {
+                    if (cthd.SanPham.MaSP == masp)
+                    {
+                        index = dsCTPN.IndexOf(cthd);
+                    }
+                }
+                dsCTPN.RemoveAt(index);
+                dgvDanhsachSPPN.Rows.Remove(dgvDanhsachSPPN.CurrentRow);
+                tongtien -= thanhtien;
+                lbTongtienPN.Text = string.Format(new CultureInfo("vi-VN"), "{0:#,##0}", tongtien);
+            }
+            else
+            {
+                MessageBox.Show("Danh sách sản phẩm của hóa đơn đã rỗng");
+            }
         }
     }
 }
